@@ -1,5 +1,5 @@
 //Program of add sub div mul
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 void add()
@@ -40,6 +40,11 @@ void div()
 
 int main()
 {
+	ios_base::sync_with_stdio(false);
+	cin.tie(0);
+	cout.tie(0);
+	
+	
 	cout<<"1.Addition"<<endl;
 	cout<<"2.Substraction"<<endl;
 	cout<<"3.Multiplication"<<endl;
