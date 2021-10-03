@@ -1,2 +1,2 @@
 # C++ Notes Assignments
-Programs of C++ Notes (Basic to advanced)
+solutions of problems in C++
