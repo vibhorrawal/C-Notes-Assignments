@@ -34,6 +34,8 @@ void div()
 	int a,b,j;
 	cout<<"Enter two numbers"<<endl;
 	cin>>a>>b;
+	if (b == 0)
+            throw runtime_error("Math error: Attempted to divide by Zero\n");
 	j=a/b;
 	cout<<"Result is :"<<j<<endl;
 }
